@@ -33,3 +33,16 @@ let incomeTax = createTaxCalculator(0.18);
 
 console.log(vatTax(100));
 console.log(incomeTax(100));
+
+// Javascript Closure
+// when we define a function, the function is called a clouse when it keep track of
+// all the depncies varialbes that are linked to the function
+let user_name = "subham";
+
+function greetUser() {
+  //   let name = "pinku";
+  console.log(`Hi , ${name}`);
+}
+
+let name = "subhasis";
+greetUser();
